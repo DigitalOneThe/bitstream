@@ -2,7 +2,7 @@
 
 Examples:
 Writing array and reading...
-
+```
 BitStream<int*> bitStream;
  
 int* arrayInts = new int[30];
@@ -35,3 +35,4 @@ int aRead = 0;
 readStream.Read(&aRead, sizeof(int));
  
 printf("aRead: %i\n", aRead);
+```
