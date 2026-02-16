@@ -1,3 +1,5 @@
+#define BYTES_TO_BITS(bytes) bytes * 8
+
 template <typename T>
 class BitStream {
 private:
