@@ -1,7 +1,7 @@
 ## BitStream
 
-Examples:
-Writing array and reading...
+Examples...
+
 ```
 BitStream<int*> bitStream;
  
