@@ -14,6 +14,13 @@ public:
         ResetRead();
     }
 
+    ~BitStream() {
+        readPos_ = 0;
+        writePos_ = 0;
+
+        array.clear();
+    }
+
     void Write(const T* data, size_t lenght) {
         if (lenght == 0) return;
 
